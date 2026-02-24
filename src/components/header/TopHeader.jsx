@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../../public/img/logo.png";
 import { FaRegHeart } from "react-icons/fa";
 import { TiShoppingCart } from "react-icons/ti";
 import "./header.css";
@@ -13,7 +12,7 @@ function TopHeader() {
     <div className="top_header">
       <div className="container">
         <Link to="/" className="logo">
-          <img src={Logo} alt="" />
+          <img src="/img/logo.png" alt="" />
         </Link>
         <SearchBox />
         <div className="header-icons">
