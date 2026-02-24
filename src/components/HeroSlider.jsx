@@ -1,7 +1,7 @@
 // import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import '../../public/img/'
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -36,7 +36,7 @@ function HeroSlider() {
                   Order Now
                 </Link>
               </div>
-              <img src="../public/img/banner_Hero1.jpg" alt="slider-hero" />
+              <img src="../../public/img/banner_Hero1.jpg" alt="slider-hero" />
             </SwiperSlide>
             <SwiperSlide>
               <div className="content">
@@ -49,7 +49,7 @@ function HeroSlider() {
                   Order Now
                 </Link>
               </div>
-              <img src="../public/img/banner_Hero2.jpg" alt="slider-hero" />
+              <img src="../../public/img/banner_Hero2.jpg" alt="slider-hero" />
             </SwiperSlide>
             <SwiperSlide>
               <div className="content">
@@ -62,7 +62,7 @@ function HeroSlider() {
                   Order Now
                 </Link>
               </div>
-              <img src="../public/img/banner_Hero3.jpg" alt="slider-hero" />
+              <img src="../../public/img/banner_Hero3.jpg" alt="slider-hero" />
             </SwiperSlide>
           </Swiper>
         </div>
