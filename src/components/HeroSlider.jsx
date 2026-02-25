@@ -11,6 +11,9 @@ import "../page/Home/home.css";
 import { Link } from "react-router-dom";
 
 function HeroSlider() {
+
+  const isDark = document.body.classList.contains("dark");
+
   return (
     <>
       <div className="hero">
@@ -36,7 +39,7 @@ function HeroSlider() {
                   Order Now
                 </Link>
               </div>
-              <img src="/img/banner_Hero1.jpg" alt="slider-hero" />
+              <img src={isDark ? "/img/dark1.jpg" : "/img/banner_Hero1.jpg" } alt="slider-hero" />
             </SwiperSlide>
             <SwiperSlide>
               <div className="content">
@@ -49,7 +52,7 @@ function HeroSlider() {
                   Order Now
                 </Link>
               </div>
-              <img src="/img/banner_Hero2.jpg" alt="slider-hero" />
+              <img src={isDark ? "/img/dark2.jpg" : "/img/banner_Hero2.jpg" } alt="slider-hero" />
             </SwiperSlide>
             <SwiperSlide>
               <div className="content">
@@ -62,7 +65,7 @@ function HeroSlider() {
                   Order Now
                 </Link>
               </div>
-              <img src="/img/banner_Hero3.jpg" alt="slider-hero" />
+              <img src={isDark ? "/img/dark3.jpg" : "/img/banner_Hero3.jpg" } alt="slider-hero" />
             </SwiperSlide>
           </Swiper>
         </div>
