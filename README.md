@@ -29,4 +29,6 @@ This project simulates a real online store where users can browse products, add 
 
 ---
 
-## 📂 Project Structure
+## 🌐 Live Demo
+
+https://e-commeerce-website.netlify.app
