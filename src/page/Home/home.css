@@ -15,7 +15,6 @@
   top: 50%;
   left: 5%;
   transform: translateY(-50%);
-  z-index: 11;
 }
 .swiper-slide .content h4 {
   text-transform: uppercase;
@@ -38,12 +37,4 @@
   margin-bottom: 2.5vw;
 }
 
-.mySwiper img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-.hero img {
-  position: relative !important;
-  z-index: 10;
-}
+
